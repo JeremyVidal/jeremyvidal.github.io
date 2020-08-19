@@ -1,0 +1,19 @@
+:root {
+    --font-one: 'Raleway', sans-serif;
+    --font-two: 'Trade Winds', cursive;
+
+    --mainlightest: #6B949E;
+    --mainlight: #447784;
+    --main: #255C69;
+    --maindark: #0F434F;
+    --maindarkest: #012B35;
+
+    /* --mainlightest: #FFAAAA;
+    --mainlight: #D46A6A;
+    --main: #AA3939;
+    --maindark: #801515;
+    --maindarkest: #550000; */
+
+	--mainwhite: #FFFFFF;
+	--mainblack: #000000;
+}

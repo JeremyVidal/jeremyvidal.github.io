@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Site CSS -->
+    <link rel='stylesheet' href="css/main.css">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    
+</head>
+<body>
+<header>
+  <!-- **************** Navigation **************** -->
+    <nav id="navigation" class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" id="nav_logo" href="index.html">JV</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          	<span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          	<ul class="navbar-nav" id="na v_content">
+            	<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            	<li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            	<li class="nav-item dropdown">
+              	<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Projects</a>
+              	<div class="dropdown-menu ">
+					<a href="#projects" class="dropdown-item">Creature Assignment</a>
+					<a href="#projects" class="dropdown-item">Static Layout</a>
+					<a href="#projects" class="dropdown-item">API Project #1</a>
+					<a href="#projects" class="dropdown-item">API Project #2</a>
+					<div class="dropdown-divider"></div>
+					<a href="#projects" class="dropdown-item">Blue Badge TBA</a>
+					<a href="#projects" class="dropdown-item">Red Badge TBA</a>
+              	</div>
+            	</li>
+            	<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            	<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          	</ul>
+        </div>
+    </nav>
+    <section id="jumbotron">
+		<div class="jumbotron">
+			<h2><span style="color: #CCCC00;">console</span><span>.</span><span style="color: teal;">log</span><span id="hello_world"><span style="color: #CCCC00;">(</span><span style="color: green;">"Hello World!"</span><span style="color: #CCCC00;">)</span></span></h2>
+			<p class="lead">My name is Jeremy and I am a Web Developer.</p>
+			<a class="btn btn-primary btn-sml" id="resume_button" href="assets/resume.pdf" role="button">View Resume</a>
+		</div>
+	</section>
+	</header>
+<!-- **************** About **************** -->
+	<section id="about" class="card-deck">
+		<div class="card">
+			<img src="assets/profile_pic1.png" alt="Profile picture" style="width: 150px; border-radius: 50%; margin: 0 auto;">
+			<h1>Jeremy Vidal</h1>
+			<p class="title">C.R.U.D. application development using:</p>
+			<p>Javascript, PHP, HTML/CSS, SQL, Python/Flask (API), MySQL/Postgres</p>
+			<hr>
+			<!-- <p> 
+				At Eleven Fifty Academy I learned extensive fundamentals of the Python language. With a heavy focus on Flask Web API’s using Postgres Database Management System. For my capstone project we were required to create our own API that was to be hosted on the Cloud. We deployed our API on an AWS-Ec2 server while my Postgres database was hosted on an AWS-RDS server. I gained the skills to get into the world of Python, but more importantly a desire to keep evolving and growing with all my skills. And I look forward to new technologies to add to my skill base.
+			</p> -->
+			<p id="biography">
+				I started my coding experience when attending college for my Associates in Computer Information Systems in 2012. Our focus was using PHP, MySQL along with HTML/CSS. After college I worked for an automotive dealership doing web Development. Where I was responsible for developing an application for the Sales department to assist in their daily duties.<br><br>
+				When I decided to get back into coding, I wanted something fresh and in-demand. The idea of college didn't seem the right path since it would take too long to get myself up and running. So, I looked into bootcamps. And the obvious choice was Eleven Fifty Academy.<br><br>
+				At Eleven Fifty Academy I learned extensive fundamentals of the Python language. With a heavy focus on Flask Web API’s using Postgres Database Management System. After some time, I felt I needed to add just one more skill to my arsenal. So back to Eleven Fifty I went and I signed up for their JavaScript class. This class focuses on a React front-end using Express for the back-end again using Postgres for the database management system.<br><br>
+				Upon completion I am going to be ready to tackle all aspects of Web Development!
+			</p>
+			<div id="contact_links" style="margin: 24px 0;">
+				<span>
+					<ul>
+						<li><a href="https://www.facebook.com/jeremy.vidal.35/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="mailto:jbvidal101@gmail.com"><i class="fa fa-google" aria-hidden="true" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/jbvidal/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+					</ul>
+				</span>
+			</div>
+			<a id="button" href="#contact">Contact</a>
+		</div>
+	</section>
+    <div class="card" id="quote">
+      <div class="card-header" id="quote_header">
+        FAVORITE QUOTE
+      </div>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p id="quote_actual">“The computer programmer is a creator of universes for which he alone is responsible. Universes of virtually unlimited complexity can be created in the form of computer programs.”</p>
+          <footer class="blockquote-footer"><cite title="Source Title">Joseph Weizenbaum</cite></footer>
+        </blockquote>
+      </div>
+    </div>
+<!-- **************** Education **************** -->
+  <section id="education">
+	<div class="container">
+		<h1>EDUCATION</h1><br>
+		<div class="card-deck justify-content-around text-center" >
+			<!-- <div class="card-flex mx-auto" style="width: 18rem;">
+				<a href="assets/degrees/ElevenFifty2020.jpg"><img src="assets/degrees/ElevenFifty2020.jpg" class="card-img-top" alt="..."></a>
+				<div class="card-body">
+					<p class="card-text">Technical Certificate 2020</p>
+					<p>JavaScript<br>Eleven Fifty Academy</p>
+					<a href="assets/degrees/ElevenFifty2020.jpg" class="btn btn-primary" id="education_button">View Certificate</a>
+				</div>
+			</div> -->
+			<div class="card-flex mx-auto" style="width: 18rem;">
+				<a href="assets/degrees/ElevenFifty.jpg"><img src="assets/degrees/ElevenFifty.jpg" class="card-img-top" alt="..."></a>
+				<div class="card-body">
+					<p class="card-text">Technical Certificate 2019</p>
+					<p>Python Programming<br>Eleven Fifty Academy</p>
+					<a href="assets/degrees/ElevenFifty.jpg" class="btn btn-primary" id="education_button">View Certificate</a>
+				</div>
+			</div>
+			<div class="card-flex mx-auto" style="width: 18rem;">
+				<a href="assets/degrees/IvyTechAssociateDegree.png" ><img src="assets/degrees/IvyTechAssociateDegree.png" class="card-img-top" alt="..."></a>
+				<div class="card-body">
+					<p class="card-text">Associate Degree 2012</p>
+					<p>Computer Information Systems<br>Ivy Tech</p>
+					<a href="assets/degrees/IvyTechAssociateDegree.png" class="btn btn-primary" id="education_button">View Degree</a>
+				</div>
+			</div>
+			<div class="card-flex mx-auto" style="width: 18rem;">
+				<a href="assets/degrees/IvyTechTechnicalCertificate.png"><img src="assets/degrees/IvyTechTechnicalCertificate.png" class="card-img-top" alt="..."></a>
+				<div class="card-body">
+					<p class="card-text">Techical Certificate 2012</p>
+					<p>Computer Information Systems<br>Ivy Tech</p>
+					<a href="assets/degrees/IvyTechTechnicalCertificate.png" class="btn btn-primary" id="education_button">View Certificate</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<br>
+	<div class="container">   
+		<h1>AWARDS</h1><br>
+		<div class="card-deck justify-content-around text-center">
+			<!-- <div class="card-flex mx-auto" style="width: 18rem;">
+			<a href="assets/degrees/EFAAward.jpg"><img src="assets/degrees/EFAAward.jpg" class="card-img-top" alt="..."></a>
+			<div class="card-body">
+				<p class="card-text">Core Value Award 2019</p>
+				<p>Teamwork<br>Eleven Fifty Academy</p>
+				<a href="assets/degrees/EFAAward.jpg" class="btn btn-primary" id="education_button">View Certificate</a>
+			</div>
+			</div> -->
+			<div class="card-flex mx-auto" style="width: 18rem;">
+				<a href="assets/degrees/EFAAward.jpg"><img src="assets/degrees/EFAAward.jpg" class="card-img-top" alt="..."></a>
+				<div class="card-body">
+					<p class="card-text">Core Value Award 2019</p>
+					<p>Teamwork<br>Eleven Fifty Academy</p>
+					<a href="assets/degrees/EFAAward.jpg" class="btn btn-primary" id="education_button">View Certificate</a>
+				</div>
+			</div>
+		</div>
+	</div>  
+  </section>
+  <!-- **************** Projects **************** -->
+  <section id="projects">
+    <div class="container">
+      <section id="moretocome">
+        <h1>PROJECTS</h1>
+    </section>
+    <section id="project_section">
+        <hr><br>
+        <table class="projects">
+            <tr><td rowspan="3"><a href="#"><img src="assets/capstone_logo.png"></a></td></tr>
+            <tr><td><a href="#">Expense Tracker (2019)</a></td></tr>
+            <tr><td class="width">My Capstone API project using Flask. I also took the time to build a front end for this project in HTML</td></tr>
+        </table>
+        <hr><br>
+        <table class="projects">
+            <tr><td rowspan="3"><a href="#"><img src="assets/flask_background.png"></a></td></tr>
+            <tr><td><a href="#">Valet Tracker (2019)</a></td></tr>
+            <tr><td class="width">I was given a API project to complete before a second mock Interview at Eleven Fifty Academy. This is a pure backend API (no front end). I was given 24 hours to complete this project.</td></tr>
+        </table>
+        <hr><br>
+        <table class="projects">
+            <tr><td rowspan="3"><a href="#"><img src="assets/blackjack_logo.png"></a></td></tr>
+            <tr><td><a href="#">BlackJack (2019)</a></td></tr>
+            <tr><td class="width">My first Python progam at Eleven Fifty Academy was to make a CLI game. I choose BlackJack</td></tr>
+        </table>
+        <hr><br>
+        <table class="projects">
+            <tr><td rowspan="3"><a href="#"><img src="assets/PHPlogo.png"></a></td></tr>
+            <tr><td><a href="#">myEvans.me (2015)</a></td></tr>
+            <tr><td class="width">My first programming project out of college using PHP</td></tr>
+        </table>
+    </section>
+    </div>
+	</section>
+  <!-- **************** Contact Form **************** -->
+	<section id="contact">
+		<div class="container">
+			<h3>CONTACT FORM</h3>
+			<h5>Please feel free to send me a message!</h5>
+			<form id="contact_form" action="https://formspree.io/mpzyndar" method="POST">
+				<div class="form-group">
+					<label for="exampleInputEmail1">Email address</label>
+					<input type="email" name="_replyto" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+					<!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+				</div>
+				<div class="form-group">
+					<label for="exampleFormControlTextarea1">Message</label>
+					<textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+				</div>
+				<button type="submit" class="btn btn-primary" id="contact_button">Send Message</button>
+			</form>
+		</div>
+  	</section>
+  <!-- **************** Footer **************** -->
+	<footer class="page-footer font-small blue pt-4">
+		<div class="container text-center text-md-left" >
+		<div class="card-deck justify-content-around">
+			<div class="card-flex" class="footer_cards">
+			<div class="card-body">
+				<h5 class="text-uppercase" class="card-title">Skills</h5>
+				<p>
+				Languages<br>
+				- Javascript<br>
+				- PHP<br>
+				- HTML/CSS<br>
+				- SQL<br>
+				- Python (API)<br>
+				- MySQL, Postgres
+				</p>
+			</div>
+			</div>
+			<div class="card-flex" class="footer_cards">
+			<div class="card-body">
+				<h5 class="text-uppercase">Contact Info</h5>
+				<ul class="list-unstyled">
+					<a href="https://www.facebook.com/jeremy.vidal.35/" target="_blank">Facebook</a>
+					<li><a href="https://www.linkedin.com/in/jbvidal/" target="_blank">LinkedIn</a></li>
+					<li><a href="mailto:jbvidal101@gmail.com">Gmail</a></li>
+				</ul>
+			</div>
+			</div>
+			<div class="card-flex" class="footer_cards">
+			<div class="card-body">
+				<h5 class="text-uppercase">Page Sections</h5>
+				<ul class="list-unstyled">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+			</div>
+		</div>
+		</div>
+		<div class="footer-copyright text-center py-3">© 2020 &nbsp; <a href="index.html">Jeremy Vidal</a>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<script src="main.js"></script>
+</body>
+</html>

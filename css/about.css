@@ -1,0 +1,16 @@
+#about {margin: 100px auto 50px auto; color: var(--main);}
+#about .card {max-width: 800px; margin: 0 auto; padding: 25px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); text-align: center; font-family: arial;}
+#about .title {color: grey; font-size: 18px;}
+#biography {text-align: left;}
+#contact_links a {text-decoration: none; font-size: 22px; color: black; padding: 0 20px 0 20px;}
+#button {border: none; outline: 0; display: inline-block; padding: 8px; color: white; background-color: var(--mainlight); text-align: center; width: 100%; font-size: 18px;}
+#button:hover {opacity: 0.9; text-decoration: none;}
+#contact_links span {display:inline-flex;}
+#contact_links ul {margin:0; padding:0;}
+#contact_links ul li {list-style:none; float:left;}
+#contact_links ul li a {display:block; color:#aaa; margin:0 10px; font-size:24px; transition:0.5s; text-align:center;}
+#contact_links ul li:hover a {color: var(--maindark); transform:rotateZ(360deg)}
+#quote {max-width: 75%; margin: 0 auto;}
+#quote footer{ color: white;}
+#quote_header {background-color: var(--mainlight); color: white;}
+#quote_actual {color: var(--main);}

@@ -1,0 +1,6 @@
+#resume_button {background-color: var(--mainlight);}
+#resume_button:hover {opacity: 0.5;}
+#navigation {background-color: var(--maindarkest);}
+#nav_logo {font-family: var(--font-two);}
+#navbarNav ul .dropdown-menu a {color: var(--main);}
+#navbarNav ul .dropdown-menu a:hover{background-color: var(--mainlightest); color: var(--mainwhite);}

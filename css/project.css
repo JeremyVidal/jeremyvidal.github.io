@@ -1,0 +1,9 @@
+#projects {border-top: 1px solid white;}
+#moretocome {max-width: 600px; min-width: 300px; text-align: center; margin: 50px auto 30px auto; ; background-color: var(--mainlightest); color: white;}
+#project_section {max-width: 600px; min-width: 300px; margin: 20px auto 30px auto;}
+#project_section a {color: white}
+.projects {border-collapse: collapse; margin-bottom: 20px; background-color: var(--mainlightest);}
+.projects a {font-size: 20px;}
+.projects img {width: 80px; padding: 3px;}
+.projects td {padding: 5px;}
+.width {width: 600px;}
