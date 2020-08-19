@@ -2,8 +2,5 @@
 #education .container h1, h2{color: white;}
 #education_button {background-color: var(--mainlight);}
 #education_button:hover {opacity: 0.8;}
-
 #education h1 {text-align: center;}
-/* .container {align-items: center;} */
-
 #education .container .card-deck .card-flex .card-body p{color: var(--maindarkest);}
