@@ -5,7 +5,7 @@
 .project_card {width: 100%; margin-top: 25px; margin-bottom: 25px;}
 .project_card h1 {color: var(--mainwhite);}
 .project_card div {margin: 20px;}
-.site_link {color: var(--mainwhite); padding: 18px; background-color: var(--mainlight); border: 1px solid blue; border-radius: 3px;}
-.site_link:hover {opacity: 0.8; color: var(--mainwhite); text-decoration: none;}
+.site_link {color: var(--mainwhite); padding: 18px;}
+.site_link:hover {color: var(--maindarkest); text-decoration: none;}
 .tba_section {width: 100%; height: 500px;}
 .tba_image {width: 400px;}
