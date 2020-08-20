@@ -1,11 +1,11 @@
 body {background-color: var(--maindarkest);}
 
 body{
-background: var(--darkblue);
-background: -moz-linear-gradient(top, var(--maindarkest) 0%, var(--mainwhite) 100%, var(--mainwhite) 100%); 
-background: -webkit-gradient(linear, top, bottom, color-stop(0%,var(--maindarkest)), color-stop(100%,var(--mainwhite)), color-stop(100%,var(--mainwhite)));
-background: -webkit-linear-gradient(top, var(--maindarkest) 0%,var(--mainwhite) 100%,var(--mainwhite) 100%);
-background: -o-linear-gradient(top, var(--maindarkest) 0%,var(--mainwhite) 100%,var(--mainwhite) 100%);
-background: -ms-linear-gradient(top, var(--maindarkest) 0%,var(--mainwhite) 100%,var(--mainwhite) 100%);
-background: linear-gradient(to bottom, var(--maindarkest) 0%,var(--mainwhite) 100%,var(--mainwhite) 100%);
+background: var(--maindarkest);
+background: -moz-linear-gradient(top, var(--maindarkest) 0%, var(--mainlightest) 100%, var(--mainlightest) 100%); 
+background: -webkit-gradient(linear, top, bottom, color-stop(0%,var(--maindarkest)), color-stop(100%,var(--mainlightest)), color-stop(100%,var(--mainlightest)));
+background: -webkit-linear-gradient(top, var(--maindarkest) 0%,var(--mainlightest) 100%,var(--mainlightest) 100%);
+background: -o-linear-gradient(top, var(--maindarkest) 0%,var(--mainlightest) 100%,var(--mainlightest) 100%);
+background: -ms-linear-gradient(top, var(--maindarkest) 0%,var(--mainlightest) 100%,var(--mainlightest) 100%);
+background: linear-gradient(to bottom, var(--maindarkest) 0%,var(--mainlightest) 100%,var(--mainlightest) 100%);
 }

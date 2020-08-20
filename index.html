@@ -29,13 +29,19 @@
             	<li class="nav-item dropdown">
               	<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Projects</a>
               	<div class="dropdown-menu ">
-					<a href="#projects" class="dropdown-item">Creature Assignment</a>
-					<a href="#projects" class="dropdown-item">Static Layout</a>
-					<a href="#projects" class="dropdown-item">API Project #1</a>
-					<a href="#projects" class="dropdown-item">API Project #2</a>
+					<a href="#projects" class="dropdown-item">Project Section</a>
 					<div class="dropdown-divider"></div>
-					<a href="#projects" class="dropdown-item">Blue Badge TBA</a>
-					<a href="#projects" class="dropdown-item">Red Badge TBA</a>
+					<h6 class="dropdown-header">Completed</h6>
+					<div class="dropdown-divider"></div>
+					<a href="https://jeremyvidal.github.io/Static_Layout/" target="_blank" class="dropdown-item">Static Layout</a>
+					<a href="https://jeremyvidal.github.io/CSS_Creature/" target="_blank" class="dropdown-item">Creature Assignment</a>
+					<a href="https://jeremyvidal.github.io/API_Project/" target="_blank" class="dropdown-item">API Project #1</a>
+					<a href="https://efamyapi2.web.app" target="_blank" class="dropdown-item">API Project #2</a>
+					<div class="dropdown-divider"></div>
+					<h6 class="dropdown-header">More to Come</h6>
+					<div class="dropdown-divider"></div>
+					<a href="assets/badge_blue.png" target="_blank" class="dropdown-item">Blue Badge TBA</a>
+					<a href="assets/badge_red.png" target="_blank" class="dropdown-item">Red Badge TBA</a>
               	</div>
             	</li>
             	<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
@@ -155,38 +161,73 @@
   </section>
   <!-- **************** Projects **************** -->
   <section id="projects">
-    <div class="container">
-      <section id="moretocome">
-        <h1>PROJECTS</h1>
-    </section>
-    <section id="project_section">
-        <hr><br>
-        <table class="projects">
-            <tr><td rowspan="3"><a href="#"><img src="assets/capstone_logo.png"></a></td></tr>
-            <tr><td><a href="#">Expense Tracker (2019)</a></td></tr>
-            <tr><td class="width">My Capstone API project using Flask. I also took the time to build a front end for this project in HTML</td></tr>
-        </table>
-        <hr><br>
-        <table class="projects">
-            <tr><td rowspan="3"><a href="#"><img src="assets/flask_background.png"></a></td></tr>
-            <tr><td><a href="#">Valet Tracker (2019)</a></td></tr>
-            <tr><td class="width">I was given a API project to complete before a second mock Interview at Eleven Fifty Academy. This is a pure backend API (no front end). I was given 24 hours to complete this project.</td></tr>
-        </table>
-        <hr><br>
-        <table class="projects">
-            <tr><td rowspan="3"><a href="#"><img src="assets/blackjack_logo.png"></a></td></tr>
-            <tr><td><a href="#">BlackJack (2019)</a></td></tr>
-            <tr><td class="width">My first Python progam at Eleven Fifty Academy was to make a CLI game. I choose BlackJack</td></tr>
-        </table>
-        <hr><br>
-        <table class="projects">
-            <tr><td rowspan="3"><a href="#"><img src="assets/PHPlogo.png"></a></td></tr>
-            <tr><td><a href="#">myEvans.me (2015)</a></td></tr>
-            <tr><td class="width">My first programming project out of college using PHP</td></tr>
-        </table>
-    </section>
-    </div>
-	</section>
+	<div class="container">
+		<section id="moretocome">
+			<h1>PROJECTS</h1>
+		</section>
+		<section id="projects">
+			<div class="project_card">
+				<div class="d-flex justify-content-between">
+					<h1>Static Layout Project</h1>
+					<a class="site_link" href="https://jeremyvidal.github.io/Static_Layout/" target="_blank">View Static Layout Site</a>
+					<a href="https://github.com/JeremyVidal/Static_Layout" target="_blank"><img class="link_image" src="assets/github.png" title="Static Layout Repository"></a>
+				</div>
+				<iframe class="static_layout_iframe" src="https://jeremyvidal.github.io/Static_Layout/" title="Static Layout Project"></iframe>
+			</div>
+			<hr>
+			<div class="project_card">
+				<div class="d-flex justify-content-between">
+					<h1>CSS Creature Project</h1>
+					<a class="site_link" href="https://jeremyvidal.github.io/CSS_Creature/" class="btn btn-primary" target="_blank">View CSS Creature Site</a>
+					<a href="https://github.com/JeremyVidal/CSS_Creature" target="_blank"><img class="link_image" src="assets/github.png" title="CSS Creature Repository"></a>
+				</div>
+				<iframe class="static_layout_iframe" src="https://jeremyvidal.github.io/CSS_Creature/" title="CSS Creature Project"></iframe>
+			</div>
+			<hr>
+			<div class="project_card">
+				<div class="d-flex justify-content-between">
+					<h1>API #1 Project</h1>
+					<a class="site_link" href="https://jeremyvidal.github.io/API_Project/" class="btn btn-primary" target="_blank">View API #1 Site</a>
+					<a href="https://github.com/JeremyVidal/API_Project" target="_blank"><img class="link_image" src="assets/github.png" title="API #1 Repository"></a>
+				</div>
+				<iframe class="static_layout_iframe" src="https://jeremyvidal.github.io/API_Project/" title="API Project #1"></iframe>
+			</div>
+			<hr>
+			<div class="project_card">
+				<div class="d-flex justify-content-between">
+					<h1>API #2 Project</h1>
+					<a class="site_link" href="https://efamyapi2.web.app" class="btn btn-primary" target="_blank">View API #2 Site</a>
+					<a href="https://github.com/JeremyVidal/API2_Project" target="_blank"><img class="link_image" src="assets/github.png" title="API #2 Repository"></a>
+				</div>
+				<iframe class="static_layout_iframe" src="https://efamyapi2.web.app/" title="API Project #2"></iframe>
+			</div>
+			<hr>
+			<div class="project_card">
+				<div class="d-flex justify-content-between">
+					<h1>Blue Badge TBA</h1>
+					<a class="site_link" href="assets/badge_blue.png" class="btn btn-primary" target="_blank">View Blue Badge Site</a>
+					<img class="link_image" src="assets/github.png" title="Coming Soon!">
+				</div>
+				<div class="tba_section">
+					<img class="tba_image" src="assets/badge_blue.png">
+				</div>
+				<!-- <iframe class="static_layout_iframe" src="" title=""></iframe> -->
+			</div>
+			<hr>
+			<div class="project_card">
+				<div class="d-flex justify-content-between">
+					<h1>Red Badge TBA</h1>
+					<a class="site_link" href="assets/badge_red.png" target="_blank">View Red Badge Site</a>
+					<img class="link_image" src="assets/github.png" title="Coming Soon!">
+				</div>
+				<div class="tba_section">
+					<img class="tba_image" src="assets/badge_red.png">
+				</div>
+				<!-- <iframe class="static_layout_iframe" src="" title=""></iframe> -->
+			</div>
+		</section>
+	</div>
+</section>
   <!-- **************** Contact Form **************** -->
 	<section id="contact">
 		<div class="container">
@@ -195,12 +236,12 @@
 			<form id="contact_form" action="https://formspree.io/mpzyndar" method="POST">
 				<div class="form-group">
 					<label for="exampleInputEmail1">Email address</label>
-					<input type="email" name="_replyto" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+					<input type="email" name="_replyto" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
 					<!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
 				</div>
 				<div class="form-group">
 					<label for="exampleFormControlTextarea1">Message</label>
-					<textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+					<textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
 				</div>
 				<button type="submit" class="btn btn-primary" id="contact_button">Send Message</button>
 			</form>
@@ -219,18 +260,19 @@
 				- PHP<br>
 				- HTML/CSS<br>
 				- SQL<br>
-				- Python (API)<br>
+				- Python/Flask (API)<br>
 				- MySQL, Postgres
 				</p>
 			</div>
 			</div>
 			<div class="card-flex" class="footer_cards">
 			<div class="card-body">
-				<h5 class="text-uppercase">Contact Info</h5>
+				<h5 class="text-uppercase">Links</h5>
 				<ul class="list-unstyled">
-					<a href="https://www.facebook.com/jeremy.vidal.35/" target="_blank">Facebook</a>
+					<li><a href="https://www.facebook.com/jeremy.vidal.35/" target="_blank">Facebook</a></li>
 					<li><a href="https://www.linkedin.com/in/jbvidal/" target="_blank">LinkedIn</a></li>
 					<li><a href="mailto:jbvidal101@gmail.com">Gmail</a></li>
+					<li><a href="https://github.com/JeremyVidal/jeremyvidal.github.io" target="_blank">Repository</a></li>
 				</ul>
 			</div>
 			</div>
@@ -242,7 +284,7 @@
 				<li><a href="#education">Education</a></li>
 				<li><a href="#projects">Projects</a></li>
 				<li><a href="#about">About</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<!-- <li><a href="#contact">Contact</a></li> -->
 				</ul>
 			</div>
 			</div>
