@@ -1,6 +1,9 @@
 :root {
     --font-one: 'Raleway', sans-serif;
     --font-two: 'Trade Winds', cursive;
+	--mainwhite: #FFFFFF;
+	--mainblack: #000000;
+
 
     --mainlightest: #6B949E;
     --mainlight: #447784;
@@ -14,6 +17,33 @@
     --maindark: #801515;
     --maindarkest: #550000; */
 
-	--mainwhite: #FFFFFF;
-	--mainblack: #000000;
+	/* --mainlightest: #FFE873;
+    --mainlight: #FFD43B;
+    --main: #646464;
+    --maindark: #4B8BBE;
+    --maindarkest: #306998; */
+
+	/* --mainlightest: #B485B4;
+    --mainlight: #8F4C8F;
+    --main: #712771;
+    --maindark: #4E0A4E;
+	--maindarkest: #2E002E; */
+	
+	/* --mainlightest: #E8A87C;
+    --mainlight: #E27D60;
+    --main: #C38D9E;
+    --maindark: #85dcb8;
+	--maindarkest: #41B3A3; */
+
+	/* --mainlightest: #EDF5E1;
+    --mainlight: #8EE4AF;
+    --main: #5CDB95;
+    --maindark: #379683;
+	--maindarkest: #05386B; */
+
+	/* --mainlightest: #99738E;
+    --mainlight: #553D67;
+    --main: #F64C72;
+    --maindark: #2F2FA2;
+	--maindarkest: #242582; */
 }

@@ -1,5 +1,5 @@
-#contact {margin-top: 5px; padding-top: 25px; border-top: 1px solid white;}
+#contact {margin-top: 5px; padding-top: 25px; border-top: 1px solid var(--mainwhite);}
 #contact .container h3, h5 {color:var(--mainwhite);}
 #contact_form {margin-top: 30px;}
-#contact_form label{color: var(--mainwhite);}
+.form label{color: var(--mainwhite);}
 #contact_button {background-color: var(--mainlight);}

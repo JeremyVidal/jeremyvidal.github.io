@@ -1,0 +1,5 @@
+#projects{padding-bottom: 25px;}
+.project_header{color: var(--mainwhite);}
+#moretocome { background-color: var(--maindark); color: var(--mainwhite); text-align: center; margin: 25px; padding: 10px; border-radius: 5px;}
+.link_image {width: 60px;}
+.static_layout_img {width: 100%;}

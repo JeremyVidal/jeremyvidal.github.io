@@ -1,4 +1,4 @@
-footer {margin-top: 25px; color: var(--maindark); background-color: var(--mainlightest); border-top: 1px solid white;}
-footer a{text-decoration: none; color: var(--maindark);}
-footer a:hover {text-decoration: none; color: white;}
-footer h5 {color: white}
+footer {margin-top: 25px; color: var(--mainwhite); background-color: var(--mainlightest); border-top: 1px solid var(--mainwhite);}
+footer a{text-decoration: none; color: var(--mainwhite);}
+footer a:hover {text-decoration: none; color: var(--mainwhite);}
+footer h5 {color: var(--mainwhite)}

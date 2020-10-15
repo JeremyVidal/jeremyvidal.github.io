@@ -1,5 +1,5 @@
-#education {margin-top: 50px; padding-top: 25px; padding-bottom: 25px; border-top: 1px solid white;}
-#education {color: white;}
+#education {margin-top: 25px; padding-top: 25px; padding-bottom: 25px;}
+#education {color: var(--mainwhite);}
 #education_button {background-color: var(--mainlight);}
 #education_button:hover {opacity: 0.8;}
 #education h1 {text-align: center;}

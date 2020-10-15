@@ -1,7 +1,7 @@
 .jumbotron {
   background: url("../assets/jumbotron2.jpg") no-repeat center;
   background-size: cover;
-  color: white;
+  color: var(--mainwhite);
   text-align: left;
 }
 #jumbotron {position: relative; top: 57px;}

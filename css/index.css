@@ -1,9 +1,11 @@
 @import "about.css";
+@import "badges.css";
 @import "body.css";
 @import "contact.css";
 @import "education.css";
 @import "footer.css";
 @import "header.css";
 @import "navbar.css";
-@import "project.css";
+@import "projects.css";
+@import "skills.css";
 @import "variables.css";
