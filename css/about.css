@@ -9,7 +9,7 @@
 #contact_links ul {margin:0; padding:0;}
 #contact_links ul li {list-style:none; float:left;}
 #contact_links ul li a {display:block; color:#aaa; margin:0 10px; font-size:24px; transition:0.5s; text-align:center;}
-#contact_links ul li:hover a {color: var(--maindark); transform:rotateZ(360deg)}
+#contact_links ul li:hover a {color: var(--maindark); transform:rotateY(360deg)}
 #quote {max-width: 75%; margin: 0 auto;}
 #quote footer{ color: var(--mainwhite);}
 #quote_header {background-color: var(--mainlight); color: var(--mainwhite);}
